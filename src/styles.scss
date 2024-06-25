@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    // background-image: 
+    // // linear-gradient(rgba(0,0,0,0.5),rgba(34, 23, 9, 0.5)),
+    // url("/assets/images/main_backgroud1.png");
+    // background-size: cover; /* Изображение масштабируется, чтобы покрыть всю страницу */
+    // background-repeat: no-repeat; /* Изображение не повторяется */
+    // background-position: center center; /* Изображение центрируется */
+    display: flex;
+    flex-direction: column;
+}
