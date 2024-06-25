@@ -10,10 +10,10 @@ export class MainComponent {
 
   constructor() {
     this.lottieConfig = {
-      path: 'assets/animation-04a996ff5728fbe9.lottie',
+      path: 'assets/animation-04a996ff5728fbe9.json',
       renderer: 'canvas',
-      autoplay: 'true',
-      loop: 'true'
+      autoplay: true,
+      loop: true
     };
   }
 
