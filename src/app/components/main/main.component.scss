@@ -1,0 +1,19 @@
+.wr-header {
+    height: 60px; /* Set header height */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute items horizontally */
+    padding: 0 20px; /* Add horizontal padding */
+    color: #fff;
+    margin: 3%;
+    font-family:  'Didot', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wr-container {
+    display: flex;
+    width: 100%; /* Stretch container to full width */
+    justify-content: flex-start; /* Distribute menu items evenly with space around */
+    align-items: center;
+    // max-width: 1920px; /* Set maximum width for larger screens */
+    margin: 0 auto; /* Center container horizontally */
+}
