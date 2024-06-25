@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
+  lottieConfig: Object;
+
+  constructor() {
+    this.lottieConfig = {
+      path: 'assets/animation-04a996ff5728fbe9.lottie',
+      renderer: 'canvas',
+      autoplay: 'true',
+      loop: 'true'
+    };
+  }
 
 }
