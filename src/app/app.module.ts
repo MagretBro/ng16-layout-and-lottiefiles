@@ -6,6 +6,7 @@ import { MainComponent } from './components/main/main.component';
 import { LottieModule } from 'ngx-lottie';
 
 import player from 'lottie-web';
+import { FactsCardComponent } from './components/facts-card/facts-card.component';
 
 export function playerFactory() {
   return player;
@@ -14,7 +15,8 @@ export function playerFactory() {
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    MainComponent,
+    FactsCardComponent
   ],
   imports: [
     BrowserModule,
