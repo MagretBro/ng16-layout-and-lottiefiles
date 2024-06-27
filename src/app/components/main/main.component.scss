@@ -74,5 +74,208 @@
 
 .nav-item a:hover {
     color: #ffffff;
+}
 
+.wr-first-screen {
+    display: flex;
+    height: 60vh;
+    padding: 0;
+    margin: 0;
+    background-image: 
+    url("/assets/5589945.jpg");
+    background-size: cover; /* Изображение масштабируется, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: center center; /* Изображение центрируется */
+    display: flex;
+
+  }
+  
+  .left-f-screen {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-top: 5%;
+    margin: 15%, 0%, 5%, 0%;
+  }
+
+  .left-f-screen h1 {
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    justify-content: space-between;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0%;
+    color: #272736;
+  }
+
+ 
+
+
+  .sub-text {
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #8c90A5;
+  }
+
+.right-f-screen {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    // padding-right: 50px;
+    max-width: 800px; /* Set a maximum width */
+    height: 100%; /* Set the height to full */
+  }
+  
+  .right-f-screen ng-lottie {
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Set the width to full */
+    height: 100%; /* Set the height to full */
+  }
+
+  
+  .sub-text {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .main-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #408Edd;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+  
+  .download-buttons {
+    width: 15%;
+    margin: 40px 20px;
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .download-buttons button {
+    background: none; /* Убираем фон у кнопок */
+    border: none; /* Убираем границу у кнопок */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    cursor: pointer; /* Добавляем курсор-указатель */
+}
+  
+  // .download-buttons button {
+  //   padding: 10px 20px;
+  //   font-size: 1rem;
+  //   outline: none;
+  // }
+
+  .wr-sec-num-and {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    color: #8c90A5;
+    font-size: 36px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: 7%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.number {
+    font-size: 36px; /* Adjust size as needed */
+    color: #64687d; /* Adjust color as needed */
+}
+
+.label {
+    font-size: 15px;
+    color: #64687d;
+}
+
+
+
+
+// BTC CRYPTO
+.wr-btc {
+  // background-color:  #f2f2f2;
+  // box-shadow: #8c90A5;
+  font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+  color: #8c90A5;
+  margin: 20px;
+  border-radius: 1px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  padding:  20px 0px;
+  border-bottom: none;
+  text-align: left;
+  color: #272736;
+  font-size: 13px;
+  font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+}
+
+tbody td {
+  padding: 10px 0px;
+  // 
+}
+
+tbody tr {
+  border-bottom: 1px solid rgba(140,144,165,.2);
+}
+
+.mtext {
+  color: #272736;
+}
+
+.pair {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.volume {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.main-text {
+  font-weight: bold; /* Делает текст темнее */
+}
+
+.subtext {
+  font-size: 11px;
+  margin-top: 5px; /* Расстояние между основным и дополнительным текстом */
+}
+
+
+.change-positive {
+  color: #6b6;
+}
+
+.low-high {
+  font-size: 14px;
 }

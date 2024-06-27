@@ -33,18 +33,107 @@
 <!-- // Первый экран -->
     <div class="wr-first-screen">
         <div class="left-f-screen">
-
+            <h1>Простая и надежная криптовалютная биржа</h1>
+            <p class="sub-text">Работаем с 2014 года</p>
+            <button class="main-button">Создать аккаунт</button>
+            <div class="download-buttons">
+              <button><img src="assets/2android.png" alt="PlayStore"></button>
+              <button><img src="assets/2apple.png" alt="AppStore"></button>
+            </div>
         </div>
 
-        <div class="right-f-screen">
+        <!-- LOTTIE ВКЛЮЧИТЬ ПОЗЖЕ -->
+        <!-- <div class="right-f-screen">
             <ng-lottie [options]="lottieConfig"></ng-lottie>
-            <p>jjj</p>
-        </div>
+        </div> -->
     </div>
 
 
-    <div class="wr-sec-num-and-"></div>app
-    <div class="wr-btc"></div>
+    <div class="wr-sec-num-and">
+        <div class="column">
+            <div class="number">21,577</div>
+            <div class="label">Трейдеров онлайн</div>
+        </div>
+        <div class="column">
+            <div class="number">142</div>
+            <div class="label">Валютных пар</div>
+        </div>
+        <div class="column">
+            <div class="number">68,551,203 USD</div>
+            <div class="label">Объем торгов за 24ч</div>
+        </div>
+    </div>
+    
+
+
+    <!-- //// second BTC bloc -->
+    <div class="wr-btc">
+        <table>
+            <thead>
+
+                <tr>
+                    <th></th>
+                    <th>Last Price</th>
+                    <th>24h Change</th>
+                    <th>24h Low/High</th>
+                    <th>24h Volume</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="pair">
+                            <span class="mtext">BTC/USDT</span>
+                            <span class="subtext">Bitcoin</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="last-price">
+                            <span class="mtext">61,432.84</span>
+                            <span class="subtext">$63,948.82</span>
+                        </div>
+                    </td>
+                    <td class="change-positive">+0.50%</td>
+                    <td>
+                        <div class="low-high">61,023.11 - 62,474.98</div>
+                    </td>
+                    <td>
+                        <div class="volume">
+                            <span class="mtext">1,890,306 USDT</span>
+                            <span class="subtext">$1,965,883.78</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="pair">
+                            <span class="mtext">BTC/USDT</span>
+                            <span class="subtext">Bitcoin</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="last-price">
+                            <span class="mtext">61,432.84</span>
+                            <span class="subtext">$63,948.82</span>
+                        </div>
+                    </td>
+                    <td class="change-positive">+0.50%</td>
+                    <td>
+                        <div class="low-high">61,023.11 - 62,474.98</div>
+                    </td>
+                    <td>
+                        <div class="volume">
+                            <span class="mtext">1,890,306 USDT</span>
+                            <span class="subtext">$1,965,883.78</span>
+                        </div>
+                    </td>
+                </tr>
+               
+        <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+    </div>
     <div class="wr-facts"></div>
     <div class="wr-last-news"></div>
     <div class="wr-create-acc"></div>
