@@ -73,6 +73,7 @@
 
                 <tr>
                     <th></th>
+                    <th></th>
                     <th>Last Price</th>
                     <th>24h Change</th>
                     <th>24h Low/High</th>
@@ -80,11 +81,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr *ngFor="let item of data">
+                    <td>
+                        <div class="row-icon">
+                            <img src="assets/btc.png" alt="btc" class="btc-icon">
+                        </div>
+                    </td>
                     <td>
                         <div class="pair">
-                            <span class="mtext">BTC/USDT</span>
-                            <span class="subtext">Bitcoin</span>
+                                <span class="mtext">BTC/USDT</span>
+                                <span class="subtext">Bitcoin</span>
                         </div>
                     </td>
                     <td>
@@ -93,7 +99,9 @@
                             <span class="subtext">$63,948.82</span>
                         </div>
                     </td>
-                    <td class="change-positive">+0.50%</td>
+                    <td [ngClass]="getChangeClass(item.change)">{{ item.change }}</td>
+
+                    <!-- <td class="change-positive">+0.50%</td> -->
                     <td>
                         <div class="low-high">61,023.11 - 62,474.98</div>
                     </td>
@@ -104,7 +112,12 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr *ngFor="let item of data">
+                    <td>
+                        <div class="row-icon">
+                            <img src="assets/ada.png" alt="btc" class="btc-icon">
+                        </div>
+                    </td>
                     <td>
                         <div class="pair">
                             <span class="mtext">BTC/USDT</span>
@@ -117,7 +130,9 @@
                             <span class="subtext">$63,948.82</span>
                         </div>
                     </td>
-                    <td class="change-positive">+0.50%</td>
+                    <td [ngClass]="getChangeClass(item.change)">{{ item.change }}</td>
+
+                    <!-- <td class="change-positive">+0.50%</td> -->
                     <td>
                         <div class="low-high">61,023.11 - 62,474.98</div>
                     </td>
@@ -129,6 +144,68 @@
                     </td>
                 </tr>
                
+
+
+                <tr *ngFor="let item of data">
+                    <td>
+                        <div class="row-icon">
+                            <img src="assets/ada.png" alt="btc" class="btc-icon">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="pair">
+                            <span class="mtext">BTC/USDT</span>
+                            <span class="subtext">Bitcoin</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="last-price">
+                            <span class="mtext">61,432.84</span>
+                            <span class="subtext">$63,948.82</span>
+                        </div>
+                    </td>
+                    <td [ngClass]="getChangeClass(item.change)">{{ item.change }}</td>
+                    <!-- <td class="change-positive">+0.50%</td> -->
+                    <td>
+                        <div class="low-high">61,023.11 - 62,474.98</div>
+                    </td>
+                    <td>
+                        <div class="volume">
+                            <span class="mtext">1,890,306 USDT</span>
+                            <span class="subtext">$1,965,883.78</span>
+                        </div>
+                    </td>
+                </tr> 
+                <tr *ngFor="let item of data">
+                    <td>
+                        <div class="row-icon">
+                            <img src="assets/ada.png" alt="btc" class="btc-icon">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="pair">
+                            <span class="mtext">BTC/USDT</span>
+                            <span class="subtext">Bitcoin</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="last-price">
+                            <span class="mtext">61,432.84</span>
+                            <span class="subtext">$63,948.82</span>
+                        </div>
+                    </td>
+                    <td [ngClass]="getChangeClass(item.change)">{{ item.change }}</td>
+                    <!-- <td class="change-positive">+0.50%</td> -->
+                    <td>
+                        <div class="low-high">61,023.11 - 62,474.98</div>
+                    </td>
+                    <td>
+                        <div class="volume">
+                            <span class="mtext">1,890,306 USDT</span>
+                            <span class="subtext">$1,965,883.78</span>
+                        </div>
+                    </td>
+                </tr>
         <!-- Add more rows as needed -->
             </tbody>
         </table>

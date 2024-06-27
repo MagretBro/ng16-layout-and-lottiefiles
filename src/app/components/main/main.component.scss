@@ -250,6 +250,14 @@ tbody tr {
   flex-direction: column;
 }
 
+.row-icon {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  
+}
+
 .last-price {
   display: flex;
   flex-direction: column;
@@ -276,6 +284,20 @@ tbody tr {
   color: #6b6;
 }
 
+.change-negative {
+  color: #ff6c6c; /* Красный цвет для отрицательных изменений */
+}
+
+
 .low-high {
   font-size: 14px;
+}
+
+
+
+.btc-icon {
+  width: 36px;
+  height: 36px;
+  margin: 0px;
+  padding: 0;
 }
