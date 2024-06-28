@@ -1,21 +1,41 @@
 <div class="facts-container">
+    <div class="card-stack">
+      <div class="stack-layer"></div>
+      <div class="stack-layer"></div>
+    </div>
+
     <div class="card">
       <div class="card-content">
         {{ currentFact }}
       </div>
     </div>
-    <div class="card-stack">
-      <div class="stack-layer"></div>
-      <div class="stack-layer"></div>
-    </div>
+
     <div class="controls">
       <span class="card-number">{{ (currentIndex + 1).toString().padStart(2, '0') }}</span>
       <div class="arrows">
-        <!-- <span class="rotated-symbol">&#10094;</span> -->
-
         <button (click)="decrementIndex()" class="rotated-symbol">&#10094;</button>
         <button (click)="incrementIndex()"class="rotated-symbol">&#10095;</button>
       </div>
     </div>
-  </div>
+</div>
   
+
+<!-- 
+<div class="facts-container">
+  <div class="card">
+    <div class="card-content">
+      {{ currentFact }}
+    </div>
+  </div>
+  <div class="card-stack">
+    <div class="stack-layer"></div>
+    <div class="stack-layer"></div>
+  </div>
+  <div class="controls">
+    <span class="card-number">{{ (currentIndex + 1).toString().padStart(2, '0') }}</span>
+    <div class="arrows">
+      <button (click)="decrementIndex()" class="rotated-symbol">&#10094;</button>
+      <button (click)="incrementIndex()"class="rotated-symbol">&#10095;</button>
+    </div>
+  </div>
+</div> -->

@@ -76,6 +76,10 @@
     color: #ffffff;
 }
 
+
+////// first block
+
+
 .wr-first-screen {
     display: flex;
     height: 60vh;
@@ -156,7 +160,7 @@
   
   .download-buttons {
     width: 15%;
-    margin: 40px 20px;
+    margin: 80px 20px 0px 0px ;
     display: flex;
     justify-content: space-between; 
   }
@@ -167,6 +171,33 @@
     padding: 0; /* Убираем внутренние отступы */
     margin: 0; /* Убираем внешние отступы */
     cursor: pointer; /* Добавляем курсор-указатель */
+    width:  160px;
+    height: 45px;
+}
+
+.download-buttons img {
+  background: none; /* Убираем фон у кнопок */
+  border: none; /* Убираем границу у кнопок */
+  padding: 0; /* Убираем внутренние отступы */
+  margin: 0; /* Убираем внешние отступы */
+  cursor: pointer; /* Добавляем курсор-указатель */
+  width:  160px;
+  height: 45px;
+}
+
+.left-f-screen img {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-gapp img {
+  margin: 0px;
+}
+
+.btn-aapp img {
+  margin: 0px;
+  padding: 0px 20px;
+  // margin-right: 10px; 
 }
   
   // .download-buttons button {
@@ -174,6 +205,13 @@
   //   font-size: 1rem;
   //   outline: none;
   // }
+
+
+
+
+
+  
+  //////// second block Numbers
 
   .wr-sec-num-and {
 
