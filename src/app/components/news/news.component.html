@@ -1,0 +1,12 @@
+<div class="news-container">
+    <h1 class="news-header">Последние новости</h1>
+    <div class="news-grid">
+      <div class="news-card" *ngFor="let item of newsItems">
+        <p class="card-data">{{ item.date }}</p>
+        <h2 class="card-title">{{ item.title }}</h2>
+        <p class="card-text">{{ item.text }}</p>
+      </div>
+    </div>
+    <button class="more-button">more</button>
+  </div>
+  

@@ -1,0 +1,62 @@
+.earn-now-container {
+    background-color: #1d2d2c;
+    height: 271px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .create-account-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #408edd;
+    color: white;
+    height: 48px;
+    width: 80%;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px;
+
+    &:hover {
+        background-color: #4184c7;
+      }
+  }
+  
+  .login-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .already-with-us {
+    font-size: 14px;
+    color: #8c90a5;
+  }
+  
+  .login-link {
+    font-size: 14px;
+    color: #408edd;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        color: #4184c7;
+      }
+  }
+  

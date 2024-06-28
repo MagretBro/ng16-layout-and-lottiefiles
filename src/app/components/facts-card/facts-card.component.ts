@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { trigger, state, style, transition, animate } from '@angular/animations';
+
 
 @Component({
   selector: 'app-facts-card',
@@ -7,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class FactsCardComponent {
   public currentIndex: number = 0;
+
 
   public facts = [
     'Добыча криптовалюты, особенно биткойна, требует больших затрат энергии. В настоящее время ведутся работы по созданию более энергоэффективных механизмов консенсуса для решения этих проблем.',

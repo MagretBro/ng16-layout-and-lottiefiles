@@ -7,6 +7,8 @@ import { LottieModule } from 'ngx-lottie';
 
 import player from 'lottie-web';
 import { FactsCardComponent } from './components/facts-card/facts-card.component';
+import { NewsComponent } from './components/news/news.component';
+import { EarnNowComponent } from './components/earn-now/earn-now.component';
 
 export function playerFactory() {
   return player;
@@ -16,7 +18,9 @@ export function playerFactory() {
   declarations: [
     AppComponent,
     MainComponent,
-    FactsCardComponent
+    FactsCardComponent,
+    NewsComponent,
+    EarnNowComponent
   ],
   imports: [
     BrowserModule,
