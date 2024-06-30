@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
   lottieConfig: Object;
+  isMobileMenuOpen = false;
+
+
+  toggleMobileMenu() {
+    // console.log("Menu toggled");
+    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  }
 
   constructor() {
     this.lottieConfig = {
