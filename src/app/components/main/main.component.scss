@@ -1,228 +1,6 @@
 
-// .wr-header {
-//     position: relative;
-//     z-index: 1;
-//     background-color: #272736;
-//     display: flex;
-//     align-items: center; /* Align items vertically */
-//     justify-content: space-between; /* Distribute items horizontally */
-//     color: #fff;
-//     // padding: 24px;
-//     font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
-// }
 
-// .wr-container {
-//     // background-color: red;
-//     display: flex;
-//     width: 100%; /* Stretch container to full width */
-//     justify-content: flex-start; /* Distribute menu items evenly with space around */
-//     align-items: center;
-//     margin: 0;
-//     padding: 0;
-//     // max-width: 1920px; /* Set maximum width for larger screens */
-// }
-// .header-logo {
-//     display: flex;
-//     margin-right: 5%;
-//     margin-left: 5%;
-//     padding: 0;
-// }
-
-// .header-center {
-//     justify-content: space-between;
-//     width: 30%;
-//     display: flex;
-//     cursor: pointer;
-//     border: none;
-//     position: relative;
-//     margin-left: 3px;
-//     padding: 0;
-// }
-
-// .nav {
-//     display: flex;
-//     // background-color: rgb(3, 70, 70);
-//     width: 50%;
-//     margin: 0px;
-//     padding: 0;
-    
-// }
-
-// .nav-list {
-//     // background-color: aqua;
-//     display: flex;
-//     font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
-//     justify-content: space-between;
-//     font-size: 14px;
-//     color: #8c90A5;
-// }
-
-// .header-r {
-//     // background-color: rgb(138, 196, 71);
-//     display: flex;
-// }
-
-// .nav-item {
-//     // background-color: rgb(138, 196, 71);
-//     display: flex;
-//     white-space: nowrap;
-//     padding-right: 20px;
-//     margin-right: 20px;
-// }
-
-// .nav-item a {
-//     color: #8c90A5;
-//     text-decoration: none;
-// }
-
-// .nav-item a:hover {
-//     color: #ffffff;
-// }
-
-
-// .ent-button {
-//   display: flex;
-//   justify-content: center;
-//   align-items: flex-start;
-//   white-space: nowrap;
-//   color: #ffffff;
-//   margin: 10px;
-//   // padding: 0px;
-//   padding: 5px 10px 5px 10px;
-//   text-decoration: none;
-// }
-
-// .ent-button a {
-//   display: flex;
-//   font-size: 14px;
-//   white-space: nowrap;
-//   color: #ffffff;
-//   // margin: 0px;
-//   // padding: 0px;
-//   text-decoration: none;
-// }
-
-
-// .blue-button {
-//   display: flex;
-//   white-space: nowrap;
-//   color: #ffffff;
-//   cursor: pointer;
-//   margin: 0;
-//   border-radius: 5%;
-//   padding: 5px 0px;
-//   // padding: 5px 5px 5px 5px;
-//   // margin: 20px;
-//   background-color: #408eDD;
-//   text-decoration: none;
-// }
-
-
-// .blue-button a {
-//   display: flex;
-//   white-space: nowrap;
-//   color: #ffffff;
-//   cursor: pointer;
-//   margin: 0;
-//   border-radius: 5%;
-//   padding: 10px;
-//   // margin: 20px;
-//   background-color: #408eDD;
-//   text-decoration: none;
-// }
-
-
-
-
-
-// /// mobile version
-// /// 
-
-// .burger-menu {
-//   display: none;
-//   flex-direction: column;
-//   cursor: pointer;
-// }
-
-// .burger-menu div {
-//   width: 35px;
-//   height: 4px;
-//   background-color: white;
-//   margin: 6px;
-//   transition: 0.4s;
-// }
-
-// .burger-menu .change:nth-child(1) {
-//   transform: rotate(-45deg) translate(-9px, 6px);
-// }
-
-// .burger-menu .change:nth-child(2) {
-//   transform: rotate(45deg) translate(-8px, -8px);
-// }
-
-// .mobile-menu {
-//   display: none;
-//   position: absolute;
-//   top: 100%;
-//   right: 0;
-//   width: 360px;
-//   background-color: #1d1d2c;
-//   padding: 12px 0;
-//   z-index: 1000;
-// }
-
-// .mobile-menu.open {
-//   display: block;
-// }
-
-// .mobile-nav-list {
-//   list-style: none;
-//   margin: 0;
-//   padding: 0;
-// }
-
-// .mobile-nav-list .nav-item {
-//   margin: 12px 16px 0 0;
-//   padding: 12px 0;
-//   // border-bottom: 1px solid #ddd;
-// }
-
-// .mobile-nav-list .nav-item a {
-//   text-decoration: none;
-//   color: #fff;
-//   display: block;
-//   padding: 20;
-// }
-
-// .mobile-nav-list .nav-item a:hover {
-//   color: #8c90A5;
-//   ;
-// }
-
-// @media (max-width: 1024px) {
-//   .header-center {
-//     display: none;
-//   }
-//   .burger-menu {
-//     display: flex;
-//   }
-//   a {
-//     white-space: nowrap;
-//     padding-left: 20px;
-//     margin-left: 20px;
-//   }
-// }
-
-
-
-
-
-
-
-
-
-
-////// first block
+// ////// first block
 
 
 .wr-first-screen {
@@ -240,19 +18,26 @@
   }
   
   .left-f-screen {
+    order: -1;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 15%;
-    padding-top: 5%;
-    margin: 15%, 0%, 5%, 0%;
+    padding-left: 5% 15%;
+    margin: 20px;
+    // padding-top: 5%;
+    // margin: 15%, 0%, 5%, 0%;
+  }
+
+  canvas {
+    width: 700px;
+    height: 1080px;
   }
 
   .left-f-screen h1 {
     font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
-    justify-content: space-between;
+    // justify-content: space-between;
     font-size: 3rem;
     line-height: 1.2;
     margin: 0%;
@@ -262,7 +47,7 @@
 
   .sub-text {
     font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
-    justify-content: space-between;
+    // justify-content: space-between;
     font-size: 14px;
     color: #8c90A5;
   }
@@ -278,8 +63,8 @@
   }
   
   .right-f-screen ng-lottie {
-    padding: 0;
-    margin: 0;
+    // padding: 0;
+    // margin: 0;
     width: 100%; /* Set the width to full */
     height: 100%; /* Set the height to full */
   }
@@ -306,6 +91,8 @@
     margin: 80px 20px 0px 0px ;
     display: flex;
     justify-content: space-between; 
+    // margin-top: 80px;
+
   }
 
   .download-buttons button {
@@ -317,6 +104,15 @@
     width:  160px;
     height: 45px;
 }
+
+
+.download-buttons img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
 
 .download-buttons img {
   background: none; /* Убираем фон у кнопок */
@@ -342,6 +138,197 @@
   padding: 0px 20px;
 }
   
+
+
+
+/* Адаптивные стили */
+@media (max-width: 840px) {
+  .wr-first-screen {
+      flex-direction: column;
+      height: 100%;
+  }
+
+  .left-f-screen h1 {
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    margin: 0% 20%;
+    color: #272736;
+  }
+
+  .left-f-screen {
+      order: -1;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+  }
+
+  .left-f-screen {
+      align-items: start;
+      padding: 5%;
+  }
+
+  .sub-text {
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    justify-content: center;
+    margin: 3% 20%;
+    font-size: 1.2rem;
+    padding: 0;
+    // margin-top: 20px;
+  }
+
+  .sub-text p {
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    font-size: 1.2rem;
+    align-items: start;
+  }
+
+  .main-button {
+    margin: 3% 20%;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #408Edd;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+
+.download-buttons {
+  width: 70%;
+  display: flex;
+  // justify-content: space-around; /* Равномерное распределение кнопок */
+  align-items: start;
+  // margin-top: 40px;
+  margin: 3% 3% 0% 20%;
+}
+
+.download-buttons button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  cursor: pointer;
+  width: 160px;
+  height: 45px;
+}
+
+.download-buttons img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+}
+
+// 400px
+
+
+/* Адаптивные стили */
+@media (max-width: 400px) {
+  .wr-first-screen {
+      flex-direction: column;
+      height: 100%;
+  }
+
+  .left-f-screen h1 {
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    font-size: 2rem;
+    // line-height: 1.2;
+    margin: 0% 20%;
+    color: #272736;
+  }
+
+  .left-f-screen {
+      order: -1;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+  }
+
+  .left-f-screen {
+      align-items: start;
+      padding: 5%;
+  }
+
+  .right-f-screen {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Скрываем излишки содержимого */
+}
+
+.right-f-screen ng-lottie {
+    width: 700px;
+    height: 100%;
+    overflow: hidden; /* Скрываем излишки содержимого */
+    position: relative; 
+    left: -25%;
+}
+
+  .sub-text {
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    justify-content: center;
+    margin: 3% 20%;
+    font-size: 1.2rem;
+    padding: 0;
+    // margin-top: 20px;
+  }
+
+  .sub-text p {
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    font-size: 1.2rem;
+    align-items: start;
+  }
+
+  .main-button {
+    margin: 3% 20%;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #408Edd;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+
+.download-buttons {
+  width: 70%;
+  display: flex;
+  // justify-content: space-around; /* Равномерное распределение кнопок */
+  align-items: start;
+  // margin-top: 40px;
+  margin: 3% 3% 0% 14%;
+}
+
+.download-buttons button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  cursor: pointer;
+  width: 160px;
+  height: 45px;
+}
+
+.download-buttons img {
+  width: 70%;
+  height: 70%;
+  padding: 0;
+}
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -389,6 +376,7 @@
   color: #8c90A5;
   margin: 20px;
   border-radius: 1px;
+  overflow: hidden;
 }
 
 table {
@@ -488,3 +476,34 @@ tbody tr {
   justify-content: center; /* Центрируем содержимое */
   align-items: center; /* Центрируем содержимое */
 }
+
+
+
+@media (max-width: 400px) {
+
+  .wr-sec-num-and {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
+    color: #8c90A5;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: 7%;
+  }
+  
+  .number {
+    font-size: 16px; /* Adjust size as needed */
+    color: #64687d; /* Adjust color as needed */
+  }
+  
+  .label {
+    font-size: 10px;
+    padding: 3%;
+    color: #64687d;
+  }
+  
+  }
+  
