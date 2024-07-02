@@ -9,6 +9,7 @@ import player from 'lottie-web';
 import { FactsCardComponent } from './components/facts-card/facts-card.component';
 import { NewsComponent } from './components/news/news.component';
 import { EarnNowComponent } from './components/earn-now/earn-now.component';
+import { HeaderComponent } from './components/header/header.component';
 
 export function playerFactory() {
   return player;
@@ -20,7 +21,8 @@ export function playerFactory() {
     MainComponent,
     FactsCardComponent,
     NewsComponent,
-    EarnNowComponent
+    EarnNowComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
