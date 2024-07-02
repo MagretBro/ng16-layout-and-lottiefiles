@@ -31,6 +31,7 @@
   }
 
   canvas {
+    // margin: 50px;
     width: 700px;
     height: 1080px;
   }
@@ -57,14 +58,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    // padding-right: 50px;
+    width: 100%;
     // max-width: 800px; /* Set a maximum width */
     height: 100%; /* Set the height to full */
   }
   
   .right-f-screen ng-lottie {
-    // padding: 0;
-    // margin: 0;
     width: 100%; /* Set the width to full */
     height: 100%; /* Set the height to full */
   }
@@ -139,7 +138,21 @@
 }
   
 
+// @media (max-width: 1240px) {
+// canvas {
+//   // margin: 20px;
+//   width: 700px;
+//   height: 1080px;
+// }
+// }
 
+// @media (max-width: 1100px) {
+//   canvas {
+//     margin: 20px;
+//     width: 600px;
+//     height: 1080px;
+//   }
+//   }
 
 /* Адаптивные стили */
 @media (max-width: 840px) {
@@ -167,6 +180,17 @@
       align-items: start;
       padding: 5%;
   }
+
+  canvas {
+    margin: 20px;
+    width: 700px;
+    height: 1080px;
+  }
+
+  // .right-f-screen ng-lottie {
+  //   width: 80%; /* Set the width to full */
+  //   height: 80%; /* Set the height to full */
+  // }
 
   .sub-text {
     font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
@@ -370,8 +394,6 @@
 
 // BTC CRYPTO
 .wr-btc {
-  // background-color:  #f2f2f2;
-  // box-shadow: #8c90A5;
   font-family: 'Roboto Flex', sans-serif, 'Arial Narrow', Arial;
   color: #8c90A5;
   margin: 20px;
